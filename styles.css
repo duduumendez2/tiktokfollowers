@@ -549,3 +549,13 @@ body {
 img {
     max-width:100%;
     height:auto;
+}
+
+#logo {
+    width:auto;
+    height:auto;
+}
+#intro {
+    width:auto;
+    height:auto;
+}
