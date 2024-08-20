@@ -62,7 +62,7 @@
   animation: move 10s linear infinite;
 }
 
-@keyframes move {
+#@keyframes move {
   0% {
     transform: translateX(-100%);
   }
