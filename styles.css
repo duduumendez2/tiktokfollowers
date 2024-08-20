@@ -56,7 +56,7 @@
   color: #ffd700; /* Gold color */
   font-size: 10px;
   font-weight: bold;
-  text-align: center;
+  /*text-align: center;*/
   white-space: nowrap;
   overflow: hidden;
   animation: move 10s linear infinite;
