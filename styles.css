@@ -62,7 +62,7 @@
   animation: move 10s linear infinite;
 }
 
-#@keyframes move {
+#@keyframes# move {
   0% {
     transform: translateX(-100%);
   }
@@ -71,14 +71,14 @@
   }
 }
 
-#logo span {
+#logo# span {
   display: inline-block;
   animation: fade 2s linear infinite;
 }
 
-@keyframes fade {
+#@keyframes# fade {
   0% {
-    opacity: 0;
+    opacity#: 0;
   }
   50% {
     opacity: 1;
@@ -437,8 +437,8 @@ body {
   font-weight: bold;
   color: #fff; /* white text */
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* text shadow */
-  animation: shine 20s infinite; /* animation duration increased to 6s */
-  animation-timing-function: ease-in-out; /* added timing function for a smoother animation */
+  /*animation: shine 20s infinite; /* animation duration increased to 6s */
+  /*animation-timing-function: ease-in-out; /* added timing function for a smoother animation */
 }
 
 @keyframes shine {
