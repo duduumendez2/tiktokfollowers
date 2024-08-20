@@ -76,7 +76,7 @@
   animation: fade 2s linear infinite;
 }
 
-#@keyframes# fade {
+/*#@keyframes# fade {
   0% {
     opacity#: 0;
   }
@@ -86,7 +86,7 @@
   100% {
     opacity: 0;
   }
-}
+}*/
 
   #logo {
     background: linear-gradient(to right, #ffd700, #e20f0f);
@@ -441,7 +441,7 @@ body {
   /*animation-timing-function: ease-in-out; /* added timing function for a smoother animation */
 }
 
-@keyframes shine {
+/*@keyframes shine {
   0% {
     transform: translateX(-100%);
     opacity: 0;
@@ -450,7 +450,7 @@ body {
     transform: translateX(100%);
     opacity: 1;
   }
-}
+}*/
 
 #footer {
   background-color: #333;
@@ -560,4 +560,11 @@ img {
     height:auto;
     margin:auto;
     padding:auto;
+}
+#intro p {
+    width:auto;
+    height:auto;
+    margin:auto;
+    padding:auto;
+    
 }
