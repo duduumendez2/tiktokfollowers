@@ -406,19 +406,19 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-#intro p {
+/*#intro p {
   font-size: 18px;
   font-weight: bold;
   color: #fff; /* white text */
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* text shadow */
-  animation: shine 3s infinite; /* animation */
+  /*animation: shine 3s infinite;*/ /* animation */ 
 }
 
-#intro p b {
+/*#intro p b {
   color: #ffff00; /* yellow bold text */
 }
 
-@keyframes shine {
+/*@keyframes shine {
   0% {
     transform: translateX(-100%);
     opacity: 0;
@@ -427,7 +427,7 @@ body {
     transform: translateX(100%);
     opacity: 1;
   }
-}
+}*/
 
 
 
@@ -566,5 +566,6 @@ img {
     height:auto;
     margin:auto;
     padding:auto;
+    position:fixed;
     
 }
